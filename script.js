@@ -1,4 +1,4 @@
-// Metode 4 fra foodrepo (HTML tag)
+// Metode 4 fra foodrepo (HTML template & content.cloneNode)
 
 // Lytter efter en "submit"-begivenhed på formularen med id="frmMusic"
 document.querySelector('#frmMusic').addEventListener('submit', (e) => {
