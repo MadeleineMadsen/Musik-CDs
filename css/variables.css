@@ -4,6 +4,7 @@
 
     --colorPrimary: black;
     --colorSecondary: white;
+    --colorBackground: linear-gradient(to bottom, rgb(0, 106, 133), white);
 
     --colorTextOne: black;
     --colorTextTwo: white;
