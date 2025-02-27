@@ -70,7 +70,7 @@ header {
 
     table {
         width: 55%;
-        table-layout: fixed;
+        table-layout: fixed; /* Evt brug table-layout: auto */
         margin: 0 auto;
     }
 
