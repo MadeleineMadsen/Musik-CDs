@@ -9,7 +9,7 @@ document.querySelector('#frmMusic').addEventListener('submit', (e) => {
         const fragment = document.createDocumentFragment();
 
         // Henter værdier fra inputfelterne i formularen
-        const author = e.target.txtAuthor.value;
+        const author = e.target.txtAuthor.value;    //Tilføj evt. trim, så tekstfeltet ikke kan være tomt
         const title = e.target.txtTitle.value;
         const year = parseInt(e.target.txtYear.value); // Der bruges parseInt, da år gør brug af tal
 
@@ -24,7 +24,7 @@ document.querySelector('#frmMusic').addEventListener('submit', (e) => {
         // Close knap fra contact.js - Food repo
         // Tilføjer en event listener til sletteknappen, så rækken kan fjernes ved klik
         row.querySelector('.Delete').addEventListener('click', function() {
-            this.parentElement.parentElement.remove();
+            this.parentElement.parentElement.remove();  //Brug evt. closest('klasse eller tag').remove
         })
 
         // Tilføjer den oprettede række til DocumentFragmentet
